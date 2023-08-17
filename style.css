@@ -227,3 +227,11 @@ span {
   width: 6rem;
   height: auto;
 }
+
+.footer-end {
+  margin-top: 4rem;
+  font-size: 1.4rem;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-weight: 500;
+}
