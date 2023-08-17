@@ -182,7 +182,7 @@ Medium: 11px
 .gallery-div {
   /* border: #111 2px solid; */
   border-radius: 9px;
-  padding: 2.4rem;
+  padding: 3.2rem;
   background-color: #e9ecef;
   transition: all 0.5s;
 }
@@ -192,11 +192,13 @@ Medium: 11px
 }
 
 h3 {
-  font-size: 1.6rem;
-  font-family: cursive;
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
   color: #111;
-  margin-bottom: 1.2rem;
-  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 2rem;
+  font-weight: 800;
 }
 
 span {
