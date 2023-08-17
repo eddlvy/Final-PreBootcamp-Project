@@ -148,6 +148,64 @@ Medium: 11px
   font-weight: 400;
   color: #030404;
   line-height: 1.6;
-  margin-bottom: 6.4rem;
+  /* margin-bottom: 6.4rem; */
   /* letter-spacing: 0.9px; */
+}
+
+/* DISCOGRAPHY SECTION  */
+
+.discography-section {
+  padding: 6.4rem;
+  margin: auto;
+}
+
+.discography-header {
+  font-size: 3.6rem;
+  color: #212529;
+  font-family: "Caprasimo";
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-bottom: 6.4rem;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4.8rem;
+  row-gap: 4.8rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4.8rem;
+}
+
+.gallery-div {
+  /* border: #111 2px solid; */
+  border-radius: 9px;
+  padding: 2.4rem;
+  background-color: #e9ecef;
+  transition: all 0.5s;
+}
+
+.gallery-div:hover {
+  transform: scale(1.1);
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-family: cursive;
+  color: #111;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+}
+
+span {
+  margin-left: 0.4rem;
+}
+
+.discography-img {
+  display: block;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 0.9;
 }
