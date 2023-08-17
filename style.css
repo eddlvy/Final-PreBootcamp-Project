@@ -66,6 +66,18 @@ Medium: 11px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
+/* REUSABLE H3 HEADER */
+
+.reusable-header {
+  font-size: 3.6rem;
+  color: #212529;
+  font-family: "Caprasimo";
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-bottom: 6.4rem;
+  text-align: center;
+}
+
 /* NAV SECTION  */
 
 .nav-section {
@@ -126,21 +138,10 @@ Medium: 11px
 /* HISTORY SECTION */
 
 .history-section {
-  /* width: 120rem; */
   padding: 6.4rem;
   margin-bottom: 3.6rem;
   text-align: center;
   background-color: #e9e9ea;
-}
-
-.history-header {
-  font-size: 3.6rem;
-  color: #212529;
-  font-family: "Caprasimo";
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  margin-bottom: 4.8rem;
-  /* text-align: center; */
 }
 
 .history-text {
@@ -148,8 +149,6 @@ Medium: 11px
   font-weight: 400;
   color: #030404;
   line-height: 1.6;
-  /* margin-bottom: 6.4rem; */
-  /* letter-spacing: 0.9px; */
 }
 
 /* DISCOGRAPHY SECTION  */
@@ -157,16 +156,6 @@ Medium: 11px
 .discography-section {
   padding: 6.4rem;
   margin: auto;
-}
-
-.discography-header {
-  font-size: 3.6rem;
-  color: #212529;
-  font-family: "Caprasimo";
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  margin-bottom: 6.4rem;
-  text-align: center;
 }
 
 .container {
@@ -180,7 +169,6 @@ Medium: 11px
 }
 
 .gallery-div {
-  /* border: #111 2px solid; */
   border-radius: 9px;
   padding: 3.2rem;
   background-color: #e9ecef;
@@ -191,7 +179,7 @@ Medium: 11px
   transform: scale(1.1);
 }
 
-h3 {
+.gallery-div > h3 {
   font-size: 1.8rem;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -210,4 +198,32 @@ span {
   width: 100%;
   border-radius: 9px;
   opacity: 0.9;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 6.4rem 9.6rem;
+  background-color: #e9e9ea;
+  text-align: center;
+  /* display: flex; */
+}
+
+.external-links-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.6rem;
+}
+
+.wiki-logo {
+  display: block;
+  width: 6rem;
+  height: auto;
+}
+
+.youtube-logo {
+  display: block;
+  width: 6rem;
+  height: auto;
 }
